@@ -108,6 +108,22 @@
   filter: blur(2px);
   transition: all 0.3s;
 }
+/* QUIENES SOMOS.HTML */
+.fotoMujer1, .fotoMujer2, .fotoMujer3{
+    filter: drop-shadow(15px 20px 8px #cbdcb5);
+    height: 40vh;
+  }
+.infoMujer1, .infoMujer2, .infoMujer3{
+    background-color: #978366c5;
+}
+.infoMujer1:hover, .infoMujer2:hover, .infoMujer3:hover{
+    background-color: #cbdcb5;
+    transition: all 1.5s;
+}
+.infoMujer1 h2, .infoMujer2 h2, .infoMujer3 h2{
+    margin-bottom: 3vh;
+    font-size: 120%;
+}
 /* FOOTER GENERAL */
 .footerContacto {
   background-color: #212121;
