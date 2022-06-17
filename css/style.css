@@ -16,6 +16,7 @@
   color: white;
   text-shadow: black 2px 2px 2px;
   margin-left: 5px;
+  border-radius: 10px;
 }
 .navbar li a:hover {
   color: #554836;
@@ -131,6 +132,21 @@
 .textoVision{
     background-color: #978366c5;
 }
+/* SERVICIOS.HTML */
+.tituloServicios{
+    background-color: #cbdcb5;
+    
+}
+.fotoServicios{
+    filter: drop-shadow(15px 15px 20px #705f47);
+    border-radius: 5%;
+  }
+.fotoServicios:hover{
+    filter: grayscale(100%);
+}
+.elegirServicios{
+    border-radius: 20px;
+}
 /* FOOTER GENERAL */
 .footerContacto {
   background-color: #212121;
@@ -138,6 +154,8 @@
 
 .textoFantasma {
   font-size: 100%;
+  border-radius: 5px;
+  margin-top: 1px;
 }
 .cajaContacto1 ul li {
   padding: 9px;
@@ -153,6 +171,8 @@
 .botonSubmit {
   font-size: 40%;
   font-weight: 900;
+  margin-top: 5px;
+
 }
 .botonSubmit:hover {
   background-color: #cbdcb5;
