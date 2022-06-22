@@ -1,0 +1,17 @@
+.tituloServicios {
+    background-color: $colorPrincipal;
+  }
+  
+  .fotoServicios {
+    filter: drop-shadow(15px 15px 20px #705f47);
+    border-radius: 5%;
+  
+    &:hover {
+      filter: grayscale(100%);
+    }
+  }
+  
+  .elegirServicios {
+    border-radius: 20px;
+  }
+  

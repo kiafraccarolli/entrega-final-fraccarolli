@@ -1,0 +1,15 @@
+.fotoMujer{
+    filter: drop-shadow(15px 20px 8px #cbdcb5);
+    height: 40vh;
+  }
+.infoMujer, .infoMujer, .infoMujer{
+    background-color: #978366c5;
+    h2{
+        margin-bottom: 3vh;
+        font-size: 120%;
+    }
+    &:hover{
+        background-color: #cbdcb5;
+        transition: all 1.5s;
+    }
+}

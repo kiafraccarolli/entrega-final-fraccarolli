@@ -1,212 +1,178 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:wght@400;700&display=swap");
-/* reseteo de CSS */
 * {
   margin: 0;
   padding: 0%;
-  font-family: "Raleway";
-}
-/* HEADER GENERAL */
-.navbar {
-  background-color: #554836 !important ;
-  z-index: 3;
-  width: 100vw;
-}
-.navbar a {
-  text-decoration: none;
-  color: white;
-  text-shadow: black 2px 2px 2px;
-  margin-left: 5px;
-  border-radius: 10px;
-}
-.navbar li a:hover {
-  color: #554836;
-  transition: all 0.3s;
-  background-color: #cbdcb5;
-  text-shadow: none;
-}
-.navbar-brand:hover {
-  color: #cbdcb5;
-}
-.animate__slideInRight {
-  --animate-duration: 3s;
-}
-.animate__heartBeat{
-    --animate-duration: 10s;
-}
-/* INDEX.HTML */
+  font-family: "Raleway"; }
+
 .fotoLogo {
   border: solid #212121 0.5vw;
   filter: drop-shadow(15px 15px 20px #705f47);
-  width: 35vw;
-}
- .fotoLogo:hover{
-  border: 0;
-}
+  width: 35vw; }
+  .fotoLogo:hover {
+    border: 0; }
+
 .divLogo {
   position: absolute;
   left: 60vw;
   top: 18vw;
-  width: 38vw;
-}
+  width: 38vw; }
+
 .fotoHistoria {
   width: auto;
   height: 30vw;
   padding: 20px;
-  position: relative;
-}
+  position: relative; }
+
 .section1 {
   background-color: #cbdcb5;
-  border-bottom: 10px solid #474747;
-}
-.section2 {
-  background-color: #cbdcb5;
-}
-.section3 {
-  background-color: #cbdcb5;
-}
+  border-bottom: 10px solid #474747; }
+
+.section2, .section3 {
+  background-color: #cbdcb5; }
 
 .tituloHistoria {
   font-family: "Raleway";
   font-size: 150%;
-  font-weight: 900;
-}
+  font-weight: 900; }
+
 .fotoCara {
-  width: 70vw;
-}
-.animate__animated,
-.animate__slideInRight {
-  --animate-duration: 3s;
-}
+  width: 70vw; }
+
+.animate__animated, .animate__slideInRight {
+  --animate-duration:3s; }
 
 .parrafoIndex {
-  text-align: justify;
-}
+  text-align: justify; }
+
 .galeria {
-  background-color: #554836cd;
-}
+  background-color: #554836b0; }
+
 .tituloGaleria {
   font-family: "Questrial";
   color: white;
-  animation-iteration-count: infinite;
-}
+  animation-iteration-count: infinite; }
+
 .cajaChica {
-  background-color: white;
-}
-.foto1,
-.foto2,
-.foto3,
-.foto4 {
+  background-color: white; }
+
+.fotoGaleria {
   border: #cbdcb5 solid 10px;
   filter: drop-shadow(15px 15px 10px #705f47);
   width: 23vw;
-  margin: 1rem;
-}
-.foto1:hover,
-.foto2:hover,
-.foto3:hover,
-.foto4:hover {
-  transform: scale(1.05);
-  filter: blur(2px);
-  transition: all 0.3s;
-}
-/* QUIENES SOMOS.HTML */
-.fotoMujer1, .fotoMujer2, .fotoMujer3{
-    filter: drop-shadow(15px 20px 8px #cbdcb5);
-    height: 40vh;
-  }
-.infoMujer1, .infoMujer2, .infoMujer3{
-    background-color: #978366c5;
-}
-.infoMujer1:hover, .infoMujer2:hover, .infoMujer3:hover{
-    background-color: #cbdcb5;
-    transition: all 1.5s;
-}
-.infoMujer1 h2, .infoMujer2 h2, .infoMujer3 h2{
+  margin: 1rem; }
+  .fotoGaleria:hover {
+    transform: scale(1.05);
+    filter: blur(2px);
+    transition: all 0.3s; }
+
+.fotoMujer {
+  filter: drop-shadow(15px 20px 8px #cbdcb5);
+  height: 40vh; }
+
+.infoMujer, .infoMujer, .infoMujer {
+  background-color: #978366c5; }
+  .infoMujer h2, .infoMujer h2, .infoMujer h2 {
     margin-bottom: 3vh;
-    font-size: 120%;
-}
- /* MISION Y VISION.HTML */
- .textoMision{
+    font-size: 120%; }
+  .infoMujer:hover, .infoMujer:hover, .infoMujer:hover {
     background-color: #cbdcb5;
-}
-.textoVision{
-    background-color: #978366c5;
-}
-/* SERVICIOS.HTML */
-.tituloServicios{
+    transition: all 1.5s; }
+
+.textoMision {
+  background-color: #cbdcb5; }
+
+.textoVision {
+  background-color: #554836b0; }
+
+.tituloServicios {
+  background-color: #cbdcb5; }
+
+.fotoServicios {
+  filter: drop-shadow(15px 15px 20px #705f47);
+  border-radius: 5%; }
+  .fotoServicios:hover {
+    filter: grayscale(100%); }
+
+.elegirServicios {
+  border-radius: 20px; }
+
+.navbar {
+  background-color: #554836 !important;
+  z-index: 3;
+  width: 100vw; }
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    margin-left: 5px;
+    border-radius: 10px; }
+  .navbar li a:hover {
+    color: #554836;
+    transition: all 0.3s;
     background-color: #cbdcb5;
-    
-}
-.fotoServicios{
-    filter: drop-shadow(15px 15px 20px #705f47);
-    border-radius: 5%;
-  }
-.fotoServicios:hover{
-    filter: grayscale(100%);
-}
-.elegirServicios{
-    border-radius: 20px;
-}
-/* FOOTER GENERAL */
+    text-shadow: none; }
+
+.navbar-brand:hover {
+  color: #cbdcb5; }
+
+.animate__slideInRight {
+  --animate-duration:3s; }
+
+.animate__heartBeat {
+  --animate-duration:10s; }
+
 .footerContacto {
-  background-color: #212121;
-}
+  background-color: #212121; }
 
 .textoFantasma {
-  font-size: 100%;
-  border-radius: 5px;
-  margin-top: 1px;
-}
+  font-size: 100%; }
+  .textoFantasma:focus {
+    background-color: #cbdcb5; }
+
 .cajaContacto1 ul li {
   padding: 9px;
   font-size: 100%;
   color: white;
-  list-style-type: none;
-}
+  list-style-type: none; }
+
 .cajaFormulario {
   position: relative;
   color: white;
-  font-size: 100%;
-}
+  font-size: 100%; }
+
 .botonSubmit {
+  background-color: #a49179fc;
   font-size: 40%;
   font-weight: 900;
-  margin-top: 5px;
+  margin-top: 5px; }
+  .botonSubmit:hover {
+    background-color: #cbdcb5; }
 
-}
-.botonSubmit:hover {
-  background-color: #cbdcb5;
-}
-.textoFantasma:focus {
-  background-color: #cbdcb5;
-}
 .tituloFooter {
   font-family: "Raleway";
   font-size: 150%;
   top: 2vh;
   color: white;
-  animation-iteration-count: infinite;
-}
+  animation-iteration-count: infinite; }
+
 .tituloHorarios {
   font-size: 100%;
   color: white;
   font-weight: bolder;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
+
 .horarios li {
   list-style-type: none;
   padding: 7px;
   font-size: 100%;
-  color: white;
-}
+  color: white; }
+
 .iconosRedes {
   display: flex;
   width: 25px;
   flex-direction: column;
   height: 150px;
-  justify-content: space-between;
-}
-.icono1:hover {
-  transform: scale(1.3);
-  transition: all 0.2s;
-}
+  justify-content: space-between; }
+  .iconosRedes img:hover {
+    transform: scale(1.3);
+    transition: all 0.2s; }

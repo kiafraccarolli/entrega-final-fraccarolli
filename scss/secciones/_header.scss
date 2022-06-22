@@ -1,0 +1,31 @@
+.navbar {
+    background-color: $colorSecundario !important;
+    z-index: 3;
+    width: 100vw;
+  
+    a {
+      text-decoration: none;
+      color: white;
+      text-shadow: black 2px 2px 2px;
+      margin-left: 5px;
+      border-radius: 10px;
+    }
+  
+    li a:hover {
+      color: $colorSecundario;
+      transition: all 0.3s;
+      background-color: #cbdcb5;
+      text-shadow: none;
+    }
+  }
+  .navbar-brand:hover {
+    color: $colorPrincipal;
+  }
+  
+  .animate__slideInRight {
+    --animate-duration:3s;
+  }
+  
+  .animate__heartBeat {
+    --animate-duration:10s;
+  }
