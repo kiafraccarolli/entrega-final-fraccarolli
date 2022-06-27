@@ -46,16 +46,28 @@
   }
   
   .parrafoIndex {
-    text-align: justify;
+    font-size: 120%;
   }
   
+  .fraseFinal{
+    font-weight: bold;
+    font-size: 95%;
+    font-family: "Questrial";
+  }
+  
+  .fraseDestacada{
+    font-style: italic;
+    text-decoration: underline;
+  }
   .galeria {
     background-color: $colorSecundarioClaro;
+    
   }
   
   .tituloGaleria {
     font-family: "Questrial";
     color: white;
+    text-shadow: $colorSecundario 2px 2px 2px;
     animation-iteration-count: infinite;
   }
   
@@ -69,7 +81,7 @@
     width: 23vw;
     margin: 1rem;
     &:hover{
-        transform: scale(1.05);
+        transform: scale(0.95);
         filter: blur(2px);
         transition: all 0.3s;
     }

@@ -4,6 +4,14 @@
   padding: 0%;
   font-family: "Raleway"; }
 
+.cajaContacto1 ul li, .cajaFormulario {
+  color: white;
+  font-size: 100%; }
+
+.textoMision p, .textoVision p {
+  padding-left: 10%;
+  padding-right: 10%; }
+
 .fotoLogo {
   border: solid #212121 0.5vw;
   filter: drop-shadow(15px 15px 20px #705f47);
@@ -42,14 +50,24 @@
   --animate-duration:3s; }
 
 .parrafoIndex {
-  text-align: justify; }
+  font-size: 120%; }
+
+.fraseFinal {
+  font-weight: bold;
+  font-size: 95%;
+  font-family: "Questrial"; }
+
+.fraseDestacada {
+  font-style: italic;
+  text-decoration: underline; }
 
 .galeria {
-  background-color: #554836b0; }
+  background-color: #beaf99; }
 
 .tituloGaleria {
   font-family: "Questrial";
   color: white;
+  text-shadow: #554836 2px 2px 2px;
   animation-iteration-count: infinite; }
 
 .cajaChica {
@@ -61,7 +79,7 @@
   width: 23vw;
   margin: 1rem; }
   .fotoGaleria:hover {
-    transform: scale(1.05);
+    transform: scale(0.95);
     filter: blur(2px);
     transition: all 0.3s; }
 
@@ -70,7 +88,7 @@
   height: 40vh; }
 
 .infoMujer, .infoMujer, .infoMujer {
-  background-color: #978366c5; }
+  background-color: #beaf99; }
   .infoMujer h2, .infoMujer h2, .infoMujer h2 {
     margin-bottom: 3vh;
     font-size: 120%; }
@@ -79,10 +97,12 @@
     transition: all 1.5s; }
 
 .textoMision {
-  background-color: #cbdcb5; }
+  background-color: #cbdcb5;
+  color: black; }
 
 .textoVision {
-  background-color: #554836b0; }
+  background-color: #beaf99;
+  color: black; }
 
 .tituloServicios {
   background-color: #cbdcb5; }
@@ -112,6 +132,15 @@
     background-color: #cbdcb5;
     text-shadow: none; }
 
+.nav-item--active {
+  background-color: #cbdcb5;
+  color: #554836;
+  border-radius: 10px; }
+  .nav-item--active a {
+    text-shadow: none;
+    color: black;
+    font-weight: 500; }
+
 .navbar-brand:hover {
   color: #cbdcb5; }
 
@@ -131,14 +160,10 @@
 
 .cajaContacto1 ul li {
   padding: 9px;
-  font-size: 100%;
-  color: white;
   list-style-type: none; }
 
 .cajaFormulario {
-  position: relative;
-  color: white;
-  font-size: 100%; }
+  position: relative; }
 
 .botonSubmit {
   background-color: #a49179fc;

@@ -1,4 +1,4 @@
 $colorPrincipal: #cbdcb5;
 $colorSecundario: #554836;
-$colorSecundarioClaro: #554836b0;
+$colorSecundarioClaro: lighten($color: #554836, $amount: 40);;
 $colorTerciario: #212121;

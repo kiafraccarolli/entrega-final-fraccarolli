@@ -1,8 +1,14 @@
 .textoMision {
-    background-color: $colorPrincipal;
-  }
-  
+    @include cuadroTexto($colorPrincipal, black);
+    p{
+      @extend %textoMisionyVision;
+    }
+}
+
 .textoVision {
-    background-color: $colorSecundarioClaro;
+  @include cuadroTexto($colorSecundarioClaro, black);
+  p{
+    @extend %textoMisionyVision;
+  }
 
 }
