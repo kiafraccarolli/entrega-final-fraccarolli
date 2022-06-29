@@ -8,4 +8,4 @@ Cambios realizados para mejorar el SEO del sitio:
 3- Redacté un breve párrafo para colocar en la etiqueta meta description de cada página.
 3- Armé una carpeta "pages" como buena práctica para la rápida visualización de la jerarquía de archivos.
 4-Optimizé las imagenes subiendolas a cloudinary e insertando el link de cada una en sus respectivos html
-
+5- Agregué el archivo de sitemap.xml
