@@ -2,6 +2,7 @@
     border: solid $colorTerciario 0.5vw;
     filter: drop-shadow(15px 15px 20px #705f47);
     width: 35vw;
+    border-radius: 15px;
   
     &:hover {
       border: 0;
@@ -16,10 +17,7 @@
   }
   
   .fotoHistoria {
-    width: auto;
-    height: 30vw;
-    padding: 20px;
-    position: relative;
+    border-radius: 15px;
   }
   
   .section1 {

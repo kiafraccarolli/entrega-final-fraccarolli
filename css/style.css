@@ -15,7 +15,8 @@
 .fotoLogo {
   border: solid #212121 0.5vw;
   filter: drop-shadow(15px 15px 20px #705f47);
-  width: 35vw; }
+  width: 35vw;
+  border-radius: 15px; }
   .fotoLogo:hover {
     border: 0; }
 
@@ -26,10 +27,7 @@
   width: 38vw; }
 
 .fotoHistoria {
-  width: auto;
-  height: 30vw;
-  padding: 20px;
-  position: relative; }
+  border-radius: 15px; }
 
 .section1 {
   background-color: #cbdcb5;
@@ -85,7 +83,8 @@
 
 .fotoMujer {
   filter: drop-shadow(15px 20px 8px #cbdcb5);
-  height: 40vh; }
+  height: 40vh;
+  border-radius: 15px; }
 
 .infoMujer, .infoMujer, .infoMujer {
   background-color: #beaf99; }
