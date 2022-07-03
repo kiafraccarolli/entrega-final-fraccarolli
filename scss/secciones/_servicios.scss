@@ -5,13 +5,27 @@
   .fotoServicios {
     filter: drop-shadow(15px 15px 20px #705f47);
     border-radius: 5%;
+    width: 25vw;
   
     &:hover {
       filter: grayscale(100%);
     }
   }
-  
   .elegirServicios {
     border-radius: 20px;
   }
-  
+.form-label{
+  margin-top: 10px;
+}
+.botonEnviar{
+  background-color: black;
+  color:white;
+  &:hover{
+    background-color: $colorPrincipal;
+    color: black;
+    transition: all 0.3s;
+  }
+}
+.modal-header{
+  background-color: $colorPrincipal;
+}

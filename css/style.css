@@ -81,19 +81,52 @@
     filter: blur(2px);
     transition: all 0.3s; }
 
+.mainInfo {
+  background-color: #beaf99;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2rem 2rem;
+  grid-template-areas: "fotoMujer1 fotoMujer2 fotomujer3" "infoMujer1 infoMujer2 infoMujer3"; }
+
+.fotoMujer1 {
+  grid-area: "fotoMujer1";
+  background-color: white; }
+
+.fotoMujer2 {
+  grid-area: "fotoMujer2";
+  background-color: white; }
+
+.fotoMujer3 {
+  grid-area: "fotoMujer3";
+  background-color: white; }
+
+.infoMujer1 {
+  grid-area: "infoMujer1";
+  background-color: #beaf99; }
+
+.infoMujer2 {
+  grid-area: "infoMujer2";
+  background-color: #beaf99; }
+
+.infoMujer3 {
+  grid-area: "infoMujer3";
+  background-color: #beaf99; }
+
 .fotoMujer {
   filter: drop-shadow(15px 20px 8px #cbdcb5);
   height: 40vh;
   border-radius: 15px; }
 
-.infoMujer, .infoMujer, .infoMujer {
-  background-color: #beaf99; }
-  .infoMujer h2, .infoMujer h2, .infoMujer h2 {
-    margin-bottom: 3vh;
-    font-size: 120%; }
-  .infoMujer:hover, .infoMujer:hover, .infoMujer:hover {
-    background-color: #cbdcb5;
-    transition: all 1.5s; }
+.infoMujer h2,
+.infoMujer h2,
+.infoMujer h2 {
+  margin-bottom: 3vh;
+  font-size: 120%; }
+
+.infoMujer:hover,
+.infoMujer:hover,
+.infoMujer:hover {
+  background-color: #cbdcb5;
+  transition: all 1.5s; }
 
 .textoMision {
   background-color: #cbdcb5;
@@ -108,12 +141,27 @@
 
 .fotoServicios {
   filter: drop-shadow(15px 15px 20px #705f47);
-  border-radius: 5%; }
+  border-radius: 5%;
+  width: 25vw; }
   .fotoServicios:hover {
     filter: grayscale(100%); }
 
 .elegirServicios {
   border-radius: 20px; }
+
+.form-label {
+  margin-top: 10px; }
+
+.botonEnviar {
+  background-color: black;
+  color: white; }
+  .botonEnviar:hover {
+    background-color: #cbdcb5;
+    color: black;
+    transition: all 0.3s; }
+
+.modal-header {
+  background-color: #cbdcb5; }
 
 .navbar {
   background-color: #554836 !important;
