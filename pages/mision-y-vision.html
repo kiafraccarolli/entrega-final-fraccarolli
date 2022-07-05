@@ -63,8 +63,9 @@
             
         </section>
     </main>
-     <!-- footer -->
-     <footer class="footerContacto container-fluid pt-2" id="infoContacto">
+    <!-- footer -->
+    <footer class="footerContacto container-fluid pt-2" id="infoContacto">
+        <a href=""> <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1657050325/proyecto-beautyhome/punta-de-flecha-hacia-arriba_zixm49.png" alt="icono flecha" class="flechaFooter btn-scrolltop" id="btn_scrolltop"> </a>
         <h4 class="col-xs-12 tituloFooter d-flex justify-content-center py-2 animate__animated animate__headShake">Tenes alguna duda? Contactános!</h4>
         <div class="row d-flex justify-content-center">
             <div class="col-lg-4 col-md-5 col-xs-12 align-items-strech"> 
@@ -80,7 +81,7 @@
                 </form>
             </div>
             <div class="col-lg-4 col-md-6 col-12 cajaContacto1 footerContacto d-flex flex-column align-items-center">
-                 <div class="d-flex flex-row justify-content-center align-items-center">
+                <div class="d-flex flex-row justify-content-center align-items-center">
                     <div class="iconosRedes">
                         <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513298/proyecto-beautyhome/facebook_upt5tg.png" alt="logo Facebook" class="icono1">    
                         <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513303/proyecto-beautyhome/instagram_g4hxjc.png" alt="logo Instagram" class="icono1">    
@@ -108,5 +109,16 @@
     <script>
     new WOW().init();
     </script>
+    <script>
+        const btn_scrolltop = document.getElementById("btn_scrolltop")
+          btn_scrolltop.addEventListener('click', () => {
+            window.scrollTo(0, 0)
+          })
+    
+        window.onscroll = () => {
+          add_btn_scrolltop()
+        }
+    
+      </script>
 </body>
 </html>

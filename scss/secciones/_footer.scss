@@ -27,12 +27,13 @@
   }
   
   .botonSubmit {
-    background-color: #a49179fc;
+    background-color: $colorPrincipal;
     font-size: 40%;
     font-weight: 900;
     margin-top: 5px;
+    border-radius: 10px;
     &:hover {
-      background-color: $colorPrincipal
+      background-color: $colorSecundarioClaro;
     }
   }
   
@@ -71,5 +72,12 @@
         transform: scale(1.3);
         transition: all 0.2s;
     }
+  }
+
+  .flechaFooter{
+    position: absolute;
+    width: 25px;
+    left:95vw;
+    z-index: 3;
   }
   

@@ -9,6 +9,8 @@
   
     &:hover {
       filter: grayscale(100%);
+      transform: scale(0.9);
+      transition: all 0.3s;
     }
   }
   .elegirServicios {

@@ -57,7 +57,7 @@
 
 .fraseDestacada {
   font-style: italic;
-  text-decoration: underline; }
+  font-weight: 400; }
 
 .galeria {
   background-color: #beaf99; }
@@ -80,6 +80,14 @@
     transform: scale(0.95);
     filter: blur(2px);
     transition: all 0.3s; }
+
+::-webkit-scrollbar {
+  width: 9px; }
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10rem;
+  border: 1px solid #fff; }
 
 .mainInfo {
   background-color: #beaf99;
@@ -144,7 +152,9 @@
   border-radius: 5%;
   width: 25vw; }
   .fotoServicios:hover {
-    filter: grayscale(100%); }
+    filter: grayscale(100%);
+    transform: scale(0.9);
+    transition: all 0.3s; }
 
 .elegirServicios {
   border-radius: 20px; }
@@ -213,12 +223,13 @@
   position: relative; }
 
 .botonSubmit {
-  background-color: #a49179fc;
+  background-color: #cbdcb5;
   font-size: 40%;
   font-weight: 900;
-  margin-top: 5px; }
+  margin-top: 5px;
+  border-radius: 10px; }
   .botonSubmit:hover {
-    background-color: #cbdcb5; }
+    background-color: #beaf99; }
 
 .tituloFooter {
   font-family: "Raleway";
@@ -248,3 +259,12 @@
   .iconosRedes img:hover {
     transform: scale(1.3);
     transition: all 0.2s; }
+
+.flechaFooter {
+  position: absolute;
+  width: 25px;
+  left: 95vw;
+  z-index: 3; }
+
+html {
+  scroll-behavior: smooth; }

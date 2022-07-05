@@ -42,14 +42,14 @@
         </nav>
     </header>
      <!-- main -->
-    <section class="d-flex align-items-center row p-0 section1 m-0 ">
+    <section class="d-flex align-items-center row p-0 section1 m-0" id="#index">
         <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513299/proyecto-beautyhome/foto-cara_brhxzx.png" alt="" class=" position-relative col-9 mt-5 p-0" >
         <div class="position-absolute divLogo">
             <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513300/proyecto-beautyhome/foto-logo_oh9djz.png" alt="" class="fotoLogo animate__animated animate__slideInRight">
         </div>
     </section>
     <div class="row p-0 section2 py-3 m-0">
-        <section class=" col-lg-5 col-sm-7 col-8 section2 d-flex justify-content-center container">
+        <section class=" col-lg-5 col-sm-7 col-8 section2 d-flex justify-content-center container py-2">
             <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513300/proyecto-beautyhome/foto-historia_h1pk33.png" alt="" class="w-100 wow animate__animated animate__zoomIn fotoHistoria">
         </section>
         <section class="d-flex flex-column align-items-center justify-content-evenly col-lg-7 col-xs-12 col-sm-12 section3 py-4 px-0 ">
@@ -104,6 +104,7 @@
     </section>
      <!-- footer -->
      <footer class="footerContacto container-fluid pt-2" id="infoContacto">
+        <a href=""> <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1657050325/proyecto-beautyhome/punta-de-flecha-hacia-arriba_zixm49.png" alt="icono flecha" class="flechaFooter btn-scrolltop" id="btn_scrolltop"> </a>
         <h4 class="col-xs-12 tituloFooter d-flex justify-content-center py-2 animate__animated animate__headShake">Tenes alguna duda? Contactános!</h4>
         <div class="row d-flex justify-content-center">
             <div class="col-lg-4 col-md-5 col-xs-12 align-items-strech"> 
@@ -147,5 +148,16 @@
     <script>
     new WOW().init();
     </script>
+    <script>
+        const btn_scrolltop = document.getElementById("btn_scrolltop")
+          btn_scrolltop.addEventListener('click', () => {
+            window.scrollTo(0, 0)
+          })
+    
+        window.onscroll = () => {
+          add_btn_scrolltop()
+        }
+    
+      </script>
 </body>
 </html>

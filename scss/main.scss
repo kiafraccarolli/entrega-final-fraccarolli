@@ -15,3 +15,7 @@
 @import './secciones/servicios';
 @import './secciones/header';
 @import './secciones/footer';
+
+html{
+  scroll-behavior: smooth;
+}
