@@ -1,11 +1,15 @@
 .tituloServicios {
     background-color: $colorPrincipal;
   }
+  .contenedorServicios{
+    width: 30vw;
+  }
   
   .fotoServicios {
     filter: drop-shadow(15px 15px 20px #705f47);
     border-radius: 5%;
-    width: 25vw;
+    width: 100%;
+    cursor: pointer;
   
     &:hover {
       filter: grayscale(100%);

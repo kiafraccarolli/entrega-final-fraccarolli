@@ -147,10 +147,14 @@
 .tituloServicios {
   background-color: #cbdcb5; }
 
+.contenedorServicios {
+  width: 30vw; }
+
 .fotoServicios {
   filter: drop-shadow(15px 15px 20px #705f47);
   border-radius: 5%;
-  width: 25vw; }
+  width: 100%;
+  cursor: pointer; }
   .fotoServicios:hover {
     filter: grayscale(100%);
     transform: scale(0.9);
