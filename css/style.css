@@ -27,13 +27,15 @@
   width: 38vw; }
 
 .fotoHistoria {
-  border-radius: 15px; }
+  border-radius: 15px;
+  width: 85%; }
 
 .section1 {
   background-color: #cbdcb5;
   border-bottom: 10px solid #474747; }
 
-.section2, .section3 {
+.section2,
+.section3 {
   background-color: #cbdcb5; }
 
 .tituloHistoria {
@@ -44,8 +46,9 @@
 .fotoCara {
   width: 70vw; }
 
-.animate__animated, .animate__slideInRight {
-  --animate-duration:3s; }
+.animate__animated,
+.animate__slideInRight {
+  --animate-duration: 3s; }
 
 .parrafoIndex {
   font-size: 120%; }
@@ -88,6 +91,10 @@
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10rem;
   border: 1px solid #fff; }
+
+@media (max-width: 600px) {
+  .fotoGaleria {
+    border: #cbdcb5 solid 6px; } }
 
 .mainInfo {
   background-color: #beaf99;
@@ -206,10 +213,10 @@
   color: #cbdcb5; }
 
 .animate__slideInRight {
-  --animate-duration:3s; }
+  --animate-duration: 3s; }
 
 .animate__heartBeat {
-  --animate-duration:10s; }
+  --animate-duration: 10s; }
 
 .footerContacto {
   background-color: #212121; }
@@ -267,7 +274,7 @@
 .flechaFooter {
   position: absolute;
   width: 25px;
-  left: 95vw;
+  left: 92vw;
   z-index: 3; }
 
 html {

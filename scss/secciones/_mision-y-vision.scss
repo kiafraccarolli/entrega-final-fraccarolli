@@ -1,13 +1,13 @@
 .textoMision {
-    @include cuadroTexto($colorPrincipal, black);
-    p{
-      @extend %textoMisionyVision;
-    }
+  @include cuadroTexto($colorPrincipal, black);
+  p {
+    @extend %textoMisionyVision;
+  }
 }
 
 .textoVision {
   @include cuadroTexto($colorSecundarioClaro, black);
-  p{
+  p {
     @extend %textoMisionyVision;
   }
 }

@@ -1,4 +1,5 @@
 Cambios realizados para mejorar el SEO del sitio:
+
 1- Etiqueta title personalizada para cada página
         index: BeautyHome | INICIO
         quienes-somos.html: BeautyHome | QUIENES SOMOS
